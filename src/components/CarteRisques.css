@@ -1,0 +1,84 @@
+
+.carte-risques {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 20px;
+  color: #111827;
+}
+
+.carte-entete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.carte-entete h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.carte-entete p {
+  margin: 5px 0 0;
+  color: #6b7280;
+}
+
+.carte-demo {
+  background: #fef3c7;
+  color: #92400e;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.carte-interactive {
+  height: 480px;
+  width: 100%;
+  border-radius: 12px;
+  z-index: 0;
+}
+
+.carte-legende {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 16px;
+  font-size: 13px;
+}
+
+.carte-legende span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.point {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.point.vert { background: #22c55e; }
+.point.orange { background: #f59e0b; }
+.point.rouge { background: #ef4444; }
+
+.carte-note {
+  margin: 14px 0 0;
+  color: #6b7280;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .carte-entete {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .carte-interactive {
+    height: 360px;
+  }
+}

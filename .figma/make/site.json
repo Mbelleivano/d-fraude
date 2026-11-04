@@ -1,0 +1,12 @@
+{
+  "title": "FraudWatch",
+  "language": "fr",
+  "description": "Plateforme de détection de fraude électrique : zones à risque, clients suspects et suivi des inspections terrain.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
